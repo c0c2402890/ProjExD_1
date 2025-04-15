@@ -27,9 +27,9 @@ def main():
         if key_lst[pg.K_LEFT]:
             kk_rct.move_ip(-1,0)#練習１０－４
         if key_lst[pg.K_RIGHT]:
-            kk_rct.move_ip(+1,0)#練習１０－４
+            kk_rct.move_ip(+2,0)#練習１０－４/演習１－２
         
-        kk_rct.move_ip(-1,0)#課題１
+        kk_rct.move_ip(-1,0)#演習１ー１
         
         x = tmr%3200 #練習６
 
